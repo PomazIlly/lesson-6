@@ -34,9 +34,11 @@ class Triangle(Shape):
         return 0.5 * self.base * self.height
 
 
+
 circle = Circle(5)
 rectangle = Rectangle(4, 6)
 triangle = Triangle(3, 7)
+
 
 print("Площа кола:", circle.calculate_area())
 print("Площа прямокутника:", rectangle.calculate_area())
